@@ -8,7 +8,7 @@ O Restaurante Dalva é um local renomado, dedicado a proporcionar experiências 
 ## Estrutura do Repositório
 **/src**: Contém os arquivos HTML e CSS responsáveis pela estrutura e estilo do nosso site.
 
-**/images**: Armazena imagens relacionadas ao restaurante.
+**/assets**: É a onde estão rrmazenadas as imagens relacionadas ao restaurante.
 
 ## Tecnologias Utilizadas
 **_HTML_**: Responsável pela estrutura e organização do conteúdo. <br>
