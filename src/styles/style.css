@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+
+:root {
+    --Popis: 'Poppins', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Popis);
+}
+
+body {
+    background-color: #f8f5f2;
+    height: 100vh;
+}
+
+.interface {
+    max-width: 1208px;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.btn-contato button {
+    padding: 10px 30px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #a86f57;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+h2.titulo {
+    color: #8d5a48;
+    font-size: 30px;
+    text-align: center;
+}
+
+h2.titulo span {
+    color: #563331;
+}
+
+button:hover {
+    box-shadow: 0px 0px 8px #b5876a;
+    transform: scale(1.05);
+}
+
+/* Cabeça */
+
+header {
+    padding: 25px 4%;
+}
+
+header > .interface {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header a {
+    color: #a9928a;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2;
+}
+
+header a:hover {
+    color: #563331;
+    transform: scale(1.05);
+}
+
+header nav ul {
+    list-style-type: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 40px;
+}
+
+/* site */
+
+section.topo-do-site {
+    padding: 30px 4%;
+}
+
+section.topo-do-site .flex {
+    align-items: center;
+    justify-content: center;
+    gap: 90px;
+}
+
+.topo-do-site h1{
+    color: #fffbeb;
+    font-size: 35px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.topo-do-site .esquerdo {
+    background-color: #8d5a48c7;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #8d5a4886;
+}
+
+.topo-do-site .esquerdo p {
+    color: #fffbeb;
+    margin: 30px 0;
+    text-align: justify;
+}
+
+.topo-do-site .img-site img {
+    position: relative;
+    animation: flutuar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flutuar {
+    0% {
+        top: 0;
+    }
+    100% {
+        top: 30px;
+    }
+}
+
+section.especiarias {
+    padding: 25px 4%;
+}
+
+section.especiarias .flex {
+    gap: 35px;
+}
+
+.titulo-paragrafo {
+    text-align: center;
+    padding: 15px 0px;
+    font-size: 20px;
+    color: #8d5a48;
+}
+
+.especiarias .especiarias-box {
+    color: #563331;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: .3s;
+}
+
+.especiarias .especiarias-box:hover {
+    transform: scale(1.05);
+    /* box-shadow: 0 0 20px #8d5a48; */
+    animation: brilhos 2s linear infinite alternate;
+}
+
+@keyframes brilhos {
+    0% {
+        box-shadow: 0 0 20px #f38e22;
+    }
+
+    15% {
+        box-shadow: 0 0 20px #c25406;
+    }
+    20% {
+        box-shadow: 0 0 20px #c63f08;
+    }
+}
+
+.especiarias .especiarias-box h3 {
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.especiarias .especiarias-box p {
+    font-size: 15px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+section.sobre {
+    padding: 80px 4%;
+}
+
+section.sobre .flex {
+    align-items: center;
+    gap: 50px;
+}
+
+.flex.right {
+    flex-direction: row-reverse;
+    padding-top: 45px;
+}
+
+
+img.sobre-img {
+    background-color: #fffbeb;
+    border-radius: 15px;
+    box-shadow: 0 0 20px #8d5a488c;
+}
+
+.sobre .txt-sobre {
+    color: #8d5a48;
+}
+
+.sobre .txt-sobre h2 {
+    font-size: 35px;
+    line-height: 35px;
+    margin-bottom: 30px;
+}
+
+.sobre .txt-sobre h2 span {
+    color: #563331;
+}
+
+.sobre .txt-sobre p {
+    margin: 20px 0px;
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+footer {
+    padding: 25px 4%;
+    /* box-shadow: 0 0 40px 5px #8d5a4854; */
+    animation: borda 3s linear infinite alternate;
+}
+
+@keyframes borda {
+    0% {
+        box-shadow: 0 0 20px #f38e22;
+    }
+
+    15% {
+        box-shadow: 0 0 20px #c25406;
+    }
+    20% {
+        box-shadow: 0 0 20px #c63f08;
+    }
+    25% {
+        box-shadow: 0 0 20px #9d330f;
+    }
+}
+
+footer .flex {
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .line-footer {
+    padding: 20px 15px 20px 0px;
+}
+
+.btn-social button {
+    padding: 10px 30px;
+    margin-left: 5px;
+    font-weight: 500;
+    font-size: 15px;
+    background-color: #a86f57;
+    border: 0;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.btn-social button i {
+    color: #f8f5f2;
+    font-size: 20px;
+}
