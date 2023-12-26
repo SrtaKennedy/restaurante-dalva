@@ -272,3 +272,92 @@ footer .line-footer {
     color: #f8f5f2;
     font-size: 20px;
 }
+
+/*responsivo*/
+
+@media screen and (max-width: 1020px){
+    .flex {
+        flex-direction: column;
+    }
+
+    .desktop, .btn-contato {
+        display: none;
+    }
+
+    h2.titulo {
+        font-size: 25px;
+        line-height: 20px;
+        margin-bottom: 15px;
+    }
+
+    /* site */
+
+    section.topo-do-site {
+        padding: 30px 8%;
+    }
+
+    .topo-do-site h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    .topo-do-site .img-site img {
+        width: 100%;
+    }
+
+    /* especiarias */
+
+    ection.especiarias {
+        padding: 30px 10%;
+    }
+    
+    section.especiarias .flex {
+        gap: 20px;
+    }
+
+    .especiarias .especiarias-box h3 {
+        text-align: center;
+        margin: 15px;
+    }
+    
+    .titulo-paragrafo {
+        padding: 25px 0px;
+        font-size: 20px;
+        color: #8d5a48;
+    }
+
+    .especiarias .especiarias-box {
+        color: #563331;
+        padding: 20px;
+    }
+
+    .especiarias .especiarias-box:hover {
+        transform: scale(1);
+        animation: brilhos 2s linear infinite alternate;
+    }
+
+    /* sobre */
+
+    img.sobre-img {
+        width: 100%;
+        height: 100%;
+        background-color: #fffbeb;
+        border-radius: 15px;
+        box-shadow: 0 0 20px #8d5a488c;
+    }
+
+    section.sobre {
+        padding: 80px 8%;
+    }
+    
+    section.sobre .flex {
+        flex-direction: column;
+    }
+
+    /* footer */
+
+    footer .flex {
+        gap: 30px;
+    }
+
+}
