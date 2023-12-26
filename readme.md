@@ -11,7 +11,7 @@ O Restaurante Dalva é um local renomado, dedicado a proporcionar experiências 
 **/images**: Armazena imagens relacionadas ao restaurante.
 
 ## Tecnologias Utilizadas
-**_HTML_**: Responsável pela estrutura e organização do conteúdo.
+**_HTML_**: Responsável pela estrutura e organização do conteúdo. <br>
 **_CSS_**: Utilizado para estilizar e melhorar a apresentação visual do site.
 
 ## Como Contribuir
