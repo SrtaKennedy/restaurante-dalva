@@ -12,7 +12,8 @@ O Restaurante Dalva é um local renomado, dedicado a proporcionar experiências 
 
 ## Tecnologias Utilizadas
 **_HTML_**: Responsável pela estrutura e organização do conteúdo. <br>
-**_CSS_**: Utilizado para estilizar e melhorar a apresentação visual do site.
+**_CSS_**: Utilizado para estilizar e melhorar a apresentação visual do site.<br>
+**_JS_**: Funcionalidades de evento click do menu.
 
 ## Como Contribuir
 
